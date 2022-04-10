@@ -1,5 +1,9 @@
 package kr.Inflearn;
 
+//잘만든 클래스의 조건 4가지.
+// 1. 정보은닉  2. 기본생성자+초기화를위한 생성자 2개 생성  3. set,get 메서드  4. 모든맴버가 가지고 있는 값을 String으로 출력 toString()
+
+
 public class BookDTO {
 
 	private String title;
