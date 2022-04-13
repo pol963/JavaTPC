@@ -66,7 +66,7 @@ public class Project01_E {
 				//파일을 쓰기위해서 OutputStream만들기.
 				OutputStream outputStream = new FileOutputStream(f);
 				
-				
+				//is로 연결된상태에서 데이터를 byte(1024)만큼 먼저 받고 다시 read에 저장 반복. -1까지 -> 데이터가 비워질때까지.
 				while((read = is.read(bytes)) != -1) {
 					outputStream.write(bytes,0,read);
 				}
