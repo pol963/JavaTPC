@@ -100,8 +100,8 @@ public class Project01_D {
 				//addresses안에 있는 각 데이터를 하나씩 빼보기. 
 				System.out.println("roadAddress : " + temp.get("roadAddress"));
 				System.out.println("jibunAddress : " + temp.get("jibunAddress"));
-				System.out.println("위도 : " + temp.get("x"));
-				System.out.println("경도 : " + temp.get("y"));
+				System.out.println("경도 : " + temp.get("x"));
+				System.out.println("위도 : " + temp.get("y"));
 				
 			}
 			
