@@ -5,6 +5,8 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import kr.Inflearn.DownloadBroker;
+
 
 public class Project02_B {
 
@@ -86,7 +88,7 @@ public class Project02_B {
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
-				System.out.println(" " + (i+1));
+				System.out.print(" " + (i+1));
 				
 			}
 			
