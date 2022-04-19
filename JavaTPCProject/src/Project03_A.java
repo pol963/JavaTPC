@@ -12,8 +12,7 @@ import kr.Inflearn.ExcelVO;
 
 public class Project03_A {
 
-	//예제1. 엑셀의데이터를 자바로 처리해보기. 
-	//엑셀파일의 데이터를 arraylist에 담아 보기.
+	//Excel파일의 데이터를 자바에서 Reading해보기.
 	public static void main(String[] args) {
 		
 		String fileName ="bookList.xls";
