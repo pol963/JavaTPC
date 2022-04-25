@@ -113,13 +113,13 @@ public class Project03_D {
 			if(!(total.text().equals("0"))) {
 				Element isbn = doc.select("isbn").first();
 				String isbnStr = isbn.text();
-				System.out.println(isbnStr);
+				System.out.println("isbnStr : " + isbnStr);
 				
 				//isbn을 찾았으면 범위를 지정해보기.
 				String isbn_fine = isbnStr.split(" ")[1];
 				vo.setIsbn(isbn_fine);
 				
-				System.out.println();
+				System.out.println("isbn_fine : " + isbn_fine);
 				System.out.println();
 				
 				
