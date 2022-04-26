@@ -37,7 +37,7 @@ public class Project06A_Server {
 				DataOutputStream dos = new DataOutputStream(out);
 				
 				//문자열로 소켓을이용해 클라이언트에 돌려주기.
-				dos.writeUTF("[ECHO]"+message+"from Server");
+				dos.writeUTF(" [ECHO] "+message+" (from Server) ");
 				dos.close();
 				dis.close();
 				socket.close();
